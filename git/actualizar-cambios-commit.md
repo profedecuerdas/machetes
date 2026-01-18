@@ -1,8 +1,3 @@
-Este es el flujo de trabajo esencial para mantener tu repositorio de "machetes" o cualquier proyecto de software actualizado. Para tu manual de notas, seguiremos la regla de nomenclatura **Acción-Herramienta** que establecimos para asegurar la claridad en pantallas pequeñas.
-
-### Fichero Sugerido: `git/actualizar-cambios-commit.txt`
-
-**CONTEXTO:** Flujo de comandos para registrar cambios (ediciones, nuevos archivos o eliminaciones) en el historial local y subirlo a GitHub.
 
 **FLUJO DE COMANDOS:**
 
@@ -62,13 +57,5 @@ Verifica que estés en la rama correcta ejecutando `git branch`. Recuerda que en
 
 ---
 
-### Estructura final de tu archivo de notas
-
-Para que este archivo se visualice correctamente en tu repositorio de **machetes**, guárdalo así:
-
-```text
-/home/a/Documentos/machetes/git/actualizar-cambios-commit.txt
-
 ```
 
-¿Te gustaría que te ayude a redactar una guía rápida sobre cómo revertir un cambio si cometiste un error en el último commit? Es un "machete" muy útil para emergencias.
