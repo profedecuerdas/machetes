@@ -1,0 +1,4 @@
+ACCION: Reinstalar el entorno de trabajo
+----------------------------------------
+Comando: npm install
+Requisito: Tener el archivo package.json en la carpeta.

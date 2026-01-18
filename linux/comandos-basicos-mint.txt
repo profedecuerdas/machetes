@@ -1,0 +1,5 @@
+ACCION: Navegación y Visualización
+----------------------------------
+- pwd: Ver ruta actual.
+- ls -a: Ver archivos ocultos (como .git).
+- tree: Ver estructura de carpetas.

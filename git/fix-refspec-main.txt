@@ -1,0 +1,8 @@
+ACCION: Corregir error 'src refspec main'
+-----------------------------------------
+Causa: No hay commits o la rama no se llama main.
+Solución:
+1. git add .
+2. git commit -m "primer commit"
+3. git branch -M main
+4. git push -u origin main

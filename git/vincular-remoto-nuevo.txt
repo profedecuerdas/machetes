@@ -1,0 +1,5 @@
+ACCION: Conectar carpeta local con GitHub
+------------------------------------------
+1. git init
+2. git remote add origin https://github.com/profedecuerdas/NOMBRE_REPO.git
+3. git remote -v (para verificar)

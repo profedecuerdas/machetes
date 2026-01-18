@@ -1,0 +1,4 @@
+ACCION: Crear respaldo liviano (ZIP)
+------------------------------------
+Comando: zip -r nombre.zip . -x "*.git*" "node_modules/*" ".next/*"
+Nota: Comprime solo el código fuente.

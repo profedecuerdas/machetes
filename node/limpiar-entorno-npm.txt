@@ -1,0 +1,4 @@
+ACCION: Borrar archivos pesados (Limpieza)
+------------------------------------------
+Comando: rm -rf node_modules .next
+Uso: Ejecutar antes de comprimir o respaldar para ahorrar espacio.

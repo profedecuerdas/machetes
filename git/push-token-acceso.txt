@@ -1,0 +1,7 @@
+ACCION: Subir cambios usando Token (PAT)
+----------------------------------------
+1. git add .
+2. git commit -m "mensaje"
+3. git push -u origin main
+4. Usuario: profedecuerdas
+5. Password: [PEGAR_TOKEN_AQUÍ]
