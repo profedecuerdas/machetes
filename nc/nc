@@ -1,0 +1,44 @@
+De Linux (10.51.248.102) a Termux (10.51.248.99)
+
+En Termux (receptor), abre un terminal y ejecuta para escuchar en el puerto 12345 y guardar el archivo:
+
+text
+nc -l -p 12345 > archivo_recibido.txt
+
+En Linux (emisor), envía el archivo o nota (ej. mi_nota.txt):
+
+text
+nc 10.51.248.99 12345 < mi_nota.txt
+
+La transferencia inicia automáticamente; presiona Ctrl+C en ambos al finalizar.
+De Termux (10.51.248.99) a Linux (10.51.248.102)
+
+En Linux (receptor), ejecuta para escuchar:
+
+text
+nc -l -p 12345 > archivo_recibido.txt
+
+En Termux (emisor), envía:
+
+text
+nc 10.51.248.102 12345 < mi_nota.txt
+
+Usa el mismo puerto para consistencia; cambia si está ocupado.
+Notas importantes
+
+    Verifica conectividad con ping entre IPs antes.
+
+​
+
+Usa puertos >1024 para evitar permisos de root; verifica firewall (ej. ufw allow 12345 en Linux).
+
+​
+
+Para texto simple, omite < archivo y escribe directamente; Ctrl+D para enviar.
+
+​
+
+No es seguro para producción: datos sin encriptar.
+
+    ​
+
