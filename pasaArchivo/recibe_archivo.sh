@@ -5,7 +5,7 @@
 # Extrae el nombre del archivo de la primera línea y protege contra sobreescritura.
 # ==============================================================================
 
-PUERTO="9001"
+PUERTO="9000"
 
 echo "[*] Limpiando procesos colgados en el puerto $PUERTO..."
 fuser -k "$PUERTO/tcp" 2>/dev/null
